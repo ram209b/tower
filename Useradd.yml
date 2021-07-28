@@ -6,4 +6,4 @@
         name: test1
         state: present
         password: "login@123"  
-       sudo: yes
+        sudo: yes
