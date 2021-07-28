@@ -1,9 +1,8 @@
-- hosts:local
-  user: ram
-  becom_method: sudo
-  become: yes:
-    tasks:
+- hosts: all
+  gather_facts: false
+  tasks:
      - name: user add
-       users:
-        - test
-       password: "login@123"  
+       user:
+        name: test1
+        password: "login@123"  
+       sudo: yes
