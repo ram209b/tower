@@ -4,5 +4,6 @@
      - name: user add
        user:
         name: test1
+        state: present
         password: "login@123"  
        sudo: yes
