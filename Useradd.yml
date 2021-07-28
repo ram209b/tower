@@ -5,5 +5,5 @@
        user:
         name: test1
         state: present
-        password: "login@123"  
+        password: 'hdljskljejksmjijelskjjeokjsjs'  
         sudo: yes
