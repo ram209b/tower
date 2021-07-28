@@ -2,8 +2,9 @@
   gather_facts: false
   tasks:
      - name: user add
-       user:
-        name: test1
-        state: present
-        password: 'hdljskljejksmjijelskjjeokjsjs'  
-        sudo: yes
+       shell: 'useradd test'
+#      user:
+#        name: test1
+#        state: present
+#        password: 'hdljskljejksmjijelskjjeokjsjs'  
+#        sudo: yes
